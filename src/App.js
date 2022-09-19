@@ -2,9 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import PrimeNumber from "./algorithm/PrimeNumber";
 import PrimeFactorization from "./algorithm/PrimeFactorization";
+import FactorialNumber from "./algorithm/FactorialNumber";
 
 function App() {
-  console.log(PrimeFactorization(286));
+  console.log(FactorialNumber(5));
 
   return (
     <div className="App">
