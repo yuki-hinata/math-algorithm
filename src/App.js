@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Sosuu from "./Sosuu";
+import PrimeNumber from "./algorithm/PrimeNumber";
+import PrimeFactorization from "./algorithm/PrimeFactorization";
 
 function App() {
-  console.log(Sosuu(24));
+  console.log(PrimeFactorization(286));
 
   return (
     <div className="App">

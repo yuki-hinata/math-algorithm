@@ -1,7 +1,7 @@
-import './App.css';
+import '../App.css';
 
 // 自分の年齢が素数かどうか判定してください。
-function Sosuu( age ) {
+function PrimeNumber(age ) {
     for (let i = 2; i * i <= age; i++) {
         if (age % i !== 0) return 'not prime number';
 
@@ -9,4 +9,4 @@ function Sosuu( age ) {
     return 'prime number';
 }
 
-export default Sosuu;
+export default PrimeNumber;
